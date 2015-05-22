@@ -26,3 +26,7 @@
 `less` view less text from the file that fits your terminal screen. 
 `q` – quit, `/textTOsearch` – search text in the file  `head file.txt` (displays first 10 lines of the file)  `20 file.txt` (displays first 20 lines)  `tail file.txt` (displays last 10 lines of the file)  `wc –l file` (displays number of lines in the file)
 
+##Search Directories
+
+`grep string directory` (searches for thet string in the directories)  
+`grep –i ` (ignores small and BiG letters)  `grep –r string *` (searches the string through all directories recursively )  `grep –v` (prints only the lines that don't have that string)  `sort` (sorts alphabetically)
